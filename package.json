@@ -1,15 +1,17 @@
 {
-  "name": "keyserver",
+  "name": "key-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Send key commands with http request",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Daniel Lundin",
   "license": "ISC",
   "dependencies": {
     "restify": "^3.0.3",
-    "socket.io": "^1.3.5"
+    "socket.io": "^1.3.5",
+    "robotjs": "^0.1.2",
+    "socket.io-client": "^1.3.5"
   }
 }
